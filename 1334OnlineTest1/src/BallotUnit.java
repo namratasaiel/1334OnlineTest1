@@ -1,6 +1,10 @@
+import java.util.ArrayList;
+
 
 public class BallotUnit {
- boolean readyLight;
+ ReadyLamp readyLight;
 	boolean powerStatus;
+	
+
 	
 }
