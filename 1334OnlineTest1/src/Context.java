@@ -4,7 +4,7 @@ public class Context {
 	
 	
 	public Context(){
-		this.state=new On();
+		this.state=new Off();
 		
 	}
 	

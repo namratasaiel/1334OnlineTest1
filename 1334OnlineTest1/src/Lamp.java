@@ -1,6 +1,6 @@
 
 public interface Lamp {
-public void glowOn();
-public void glowOff();
+public Boolean glowOn();
+public Boolean glowOff();
 
 }

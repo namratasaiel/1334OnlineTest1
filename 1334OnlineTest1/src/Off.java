@@ -8,12 +8,12 @@ public class Off extends State{
 	}
 	
 	@Override
-	public void changeState(Context c) {
+	public String changeState(Context c) {
 		// TODO Auto-generated method stub
 		State o=new On();
 		c.setState(o);
 		
-		System.out.println("The state Changed to "+o.getStateName());
+		return o.getStateName();
 		
 		
 	}

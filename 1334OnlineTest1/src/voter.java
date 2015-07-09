@@ -1,5 +1,9 @@
 
 public class voter {
- Integer voterID;
+  private Integer voterID;
+
+public Integer getVoterID() {
+	return voterID;
+}
  
 }

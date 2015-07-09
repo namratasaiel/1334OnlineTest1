@@ -3,16 +3,17 @@ public class ReadyLamp implements Lamp{
 	Context busyLampc=new Context();
 
 	@Override
-public void glowOn() {
+public Boolean glowOn() {
 	State o=new On();
-	busyLampc.setState(o);		
+	busyLampc.setState(o);	
+	return true;
 }
 
 @Override
-public void glowOff() {
+public Boolean glowOff() {
 	State o=new Off();
 	busyLampc.setState(o);		
-	
+	return false;
 }
 
 
